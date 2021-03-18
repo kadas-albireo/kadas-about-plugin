@@ -21,6 +21,7 @@ from . import resources
 class AboutDialog(QDialog):
     def __init__(self, locale, parent):
         QDialog.__init__(self, parent)
+        self.setModal(True)
 
         self.setWindowTitle(self.tr("About %s") % (Kadas.KADAS_FULL_RELEASE_NAME))
         l = QGridLayout()
