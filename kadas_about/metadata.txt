@@ -4,12 +4,15 @@ qgisMinimumVersion=3.0
 qgisMaximumVersion=3.99
 description=KADAS about plugin
 about=KADAS about dialog.
-version=1.90
+version=2.0.0
 author=Sourcepole
 email=pka@sourcepole.ch
 
 
 changelog=
+ Rev 2.0.0 (18.03.2021)
+  - Make about dialog modal
+
  Rev 1.90 (28.11.2019)
   - Initial release, split off from help plugin
 
